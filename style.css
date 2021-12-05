@@ -1,0 +1,169 @@
+@import url('//fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+@font-face {
+    font-family: myFirstFont;
+    src: url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.menu {
+    background-color: #adb6c4;
+    border-bottom: 3px grey solid;
+    display: flex;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu h3 {
+    padding: 1%;
+    margin: auto;
+    margin-bottom: 1px;
+    width: 10%;
+    margin: 0%;
+}
+
+.img-contenet {
+    background-image: url('blood-donation1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    position: relative;
+    text-align: right;
+}
+
+.text-in-img {
+    padding: 1%;
+    margin: auto;
+    margin-bottom: 2px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 30px;
+    color: #38040e;
+}
+
+.wrapper1 {
+    padding: 1%;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1px;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 90%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.wrapper h1,
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #003049;
+}
+
+.menu h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    color: #003049;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: end;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: #e84118;
+    text-transform: none;
+}
+
+.contenent {
+    padding: 0% 0 0%;
+    margin: 0% 0;
+    background-color: #bfd7ea;
+}
+
+.box {
+    width: 20%;
+    height: auto;
+    margin: 1%;
+    padding: 1%;
+    background-color: #dfd1d0;
+    border-radius: 10px;
+    float: left;
+}
+
+.box-reg {
+    font-family: sans-serif;
+    border: 2px solid #003049;
+    background-color: white;
+    border-radius: 2px;
+    width: 22%;
+    margin: 1%;
+    padding-bottom: 20px;
+    padding-left: 3px;
+}
+
+.box-reg a {
+    text-decoration: none;
+    padding: 3%;
+    transition-duration: 0.4s;
+    border: 2px solid #003049;
+    border-radius: 4px;
+    background-color: #003049;
+    color: white;
+    margin-left: 5px;
+}
+
+.box-reg a:hover {
+    color: #003049;
+    background-color: white;
+}
+
+.regiter-box {
+    display: flex;
+}
+
+.what {
+    width: 56%;
+    margin: 1%;
+    padding-top: 15px;
+    padding-left: 3px;
+    font-size: larger;
+}
+
+.footer {
+    background-color: #d91e18;
+    color: #f5f6fa;
+}

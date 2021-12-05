@@ -1,0 +1,127 @@
+.btn-add-admin {
+    background-color: #2980b9;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.btn-add-admin:hover {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-update-admin {
+    background-color: #2ecc71;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.btn-delete-admin {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.btn-delete-admin:hover {
+    background-color: #d50016;
+    color: white;
+    text-decoration: none;
+}
+
+.tbl-full {
+    width: 100%;
+    font-family: sans-serif;
+}
+
+table tr th {
+    border-bottom: 1px black solid;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.add_success {
+    font-weight: bold;
+    color: green;
+}
+
+.del_success {
+    font-weight: bold;
+    color: red;
+}
+
+.btn-book {
+    background-color: #2ecc71;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 3px;
+    margin: 3%;
+    border-radius: 8px;
+}
+
+.btn-n-a {
+    background-color: #e74c3c;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 3px;
+    margin: 3%;
+    border-radius: 8px;
+}
+
+.row {
+    background-color: #f5f6fa;
+    text-align: center;
+}
+
+.tbl-full-sh {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tbl-full-sh th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+.tbl-full-sh tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.tbl-full-sh tr:hover {
+    background-color: #d2b0b0;
+}
+
+.tbl-full-sh th {
+    background-color: #a15152;
+    color: white;
+}
+
+.tbl-full-sh td li {
+    margin-bottom: 2%;
+}
