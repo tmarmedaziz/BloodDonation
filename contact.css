@@ -28,6 +28,23 @@
     border: none;
     
 }
+.avatar{
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom:10px;
+    border: none;
+}
+.avatar:hover{
+    border: orangered solid 5px;
+    transition:.5s;
+}
+.binome1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 
 
 

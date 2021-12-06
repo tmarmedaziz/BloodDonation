@@ -20,6 +20,8 @@
   integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
   integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:ital,wght@0,100;0,200;1,100&family=Josefin+Slab:wght@100&family=Lexend+Deca:wght@100;200;300&family=Livvic:ital,wght@0,100;1,100&family=Poppins:ital,wght@0,200;1,400;1,500;1,600;1,800;1,900&family=Vidaloka&display=swap" rel="stylesheet">
 </head>
 
@@ -87,7 +89,7 @@
           <hr style="width: 845px;height: 6.5px;background:white;">
           <p style="color: black;"> Vous venez de faire un don et vous avez des questions, contactez le +216 94.284.664.
             Pour toute autre question, contactez le +216 44.404.709 ou remplissez le formulaire ci-dessous.</p>
-          <button> donner du sang </button>
+          <a href="#gett"><button>click to Contact </button></a>
         </div>
       </div>
 
@@ -96,26 +98,28 @@
 <div class="contactmid">
     <div class="contactcontainer">
         <div class="conleft">
-            <h1 style="margin-bottom: 15px;font-size: 20px;line-height: 22px;">GET IN TOUCH</h1>
+            <span id="gett" style="position: relative;top: -65px;"></span>
+            <h1 id="getget" style="margin-bottom: 15px;font-size: 20px;line-height: 22px;">GET IN TOUCH</h1>
             <p>Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat</p>
             <div class="rdvform">
                 <form action="" class="formcontact">
                     <div class="formprop">
-                        <input type="text" placeholder="Your name " style="position:relative;left: 50px;top: 15px;">
+                        <input type="text" placeholder="Your name " style="position:relative;left: 50px;top: 50px;">
                     </div>
                     <div class="formprop">
                         <input type="text" placeholder="Your E-mail " style="position:relative;left: 500px;top: -12px;">
 
                     </div>
                     <div class="formprop">
-                        <input type="text" placeholder="Phone" style="position:relative;left: 50px;top: 15px;">
+                        <input type="text" placeholder="Phone" style="position:relative;left: 50px;top: 20px;">
                     </div>
                     <div class="formprop">
-                        <input type="text" placeholder="Your Address " style="position:relative;left: 500px;top: -12px;">
+                        <input type="text" placeholder="Your Address " style="position:relative;left: 500px;top: -45px;">
 
                     </div>
                     <div class="formprop">
-                        <textarea placeholder="    Your Type your message  here " rows="4" cols="100"  style="position:relative;left: 50px;top: 15px; background-color: blanchedalmond;border-radius: 20px 20px ;padding-right: 20px;border: none;"></textarea>
+                        <textarea placeholder="    Your Type your message  here " rows="4" cols="100"  style="position:relative;left: 50px;top: 15px; background-color: blanchedalmond;border-radius: 20px 20px ;padding-left: 5px;
+                        padding-top: 12px;border: none;"></textarea>
                     </div>
                     <input type="submit" value="SEND" style="border-radius: 20px 20px;
                     padding: 11px 15px;
@@ -125,9 +129,11 @@
                     background: blanchedalmond;
                     font-size: 12px;
                     color: #0000008a;
-                    line-height: 2;">
+                    line-height: 2;
+                    border: none;">
 
                 </form>
+
             </div>
 
 
@@ -138,9 +144,42 @@
             <h2>ADDRESS</h2>
             <p>Cité Technologique des Communications Route de Raoued Km 3,5 2083 El Ghazala Ariana Tunisie
             </p>
-            <h2>Idonate</h2>
+            <h2>IDONATE</h2>
             <p>Projet dev Web élaborée par Sakka Mohamed Anis , Mohamed Aziz tmar , Amine Zakaria , Mokhtar Romdhani 
             </p>
+            <hr>
+            <h2 style="text-align:center;margin-top: 50px;">OUR TEAM</h2>
+            <div class="projteam" style="margin-top: 50px;text-align: center;">
+                <div class="binome1">
+                    <div class="imgpost">
+                        <img src="./S5.jpg" alt="" class="avatar" data-aos="fade-up"
+                        data-aos-duration="3000">
+                        <h2>Sakka Mohamed Anis </h2>
+                    </div>
+                    <div class="imgpost">
+                        <img src="./S6.jpg" alt=""class="avatar" data-aos="fade-up"
+                        data-aos-duration="3000">
+                        <h2>Tmar Mohamed Aziz</h2>
+                    </div>
+                </div>
+                <div class="binome1">
+                    <div class="imgpost">
+                        <img src="./S1.png" alt=""class="avatar" data-aos="fade-up"
+                        data-aos-duration="3000">
+                        <h2>Zakaria Amine</h2>
+                    </div>
+                    <div class="imgpost">
+                        <img src="./S3.jpg" alt=""class="avatar" data-aos="fade-up"
+                        data-aos-duration="3000">
+                        <h2>Romthani Mokhtar</h2>
+        
+                    </div>
+                    
+                </div>
+
+
+            </div>
+
 
         </div>
 
@@ -461,6 +500,10 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
+
+<script>
+    AOS.init();
+</script>
 
 </body>
 

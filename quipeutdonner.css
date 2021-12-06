@@ -6,12 +6,12 @@ body, html {
   
   .intro-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.donneurdesang.be/section-image/don-de-sang-croix-rouge.jpg");
-    height:60%;
+    height:78%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-top: 70px;
+    margin-top: 60px;
     margin-bottom: 70px;
     object-fit:cover;
 
@@ -39,6 +39,8 @@ body, html {
     border-radius: 20px 20px;
     font-weight: 500;
     font-size: 24px;
+    font-family: cursive !important;
+
 
   }
   
