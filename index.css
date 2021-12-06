@@ -38,13 +38,10 @@ nav{
 }
 .option{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
     color: #404040 !important;
-
-
-
 }
 #nav2{
     background-color: #F2F3F5;
@@ -205,6 +202,8 @@ body {
     opacity: 1.5;
     text-decoration: none;
     margin-top: 1.5%;
+    margin-left: 100px;
+
 
 }
 #srch{

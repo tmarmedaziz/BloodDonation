@@ -1,0 +1,90 @@
+.rdvcont{
+    background: #f9f0f0;
+    padding: 30px;
+    box-shadow: 19px -3px 27px #888888;
+}
+.rdvallpost{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.choose p{
+    font-family: "Libre Baskerville",serif;
+    /* color: #ed1c24; */
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 31px;
+    line-height: 1.5;
+}
+.choose p a{
+    font-family: "Libre Baskerville",serif;
+    color: rgba(0, 0, 0, 0.397);
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 31px;
+    line-height: 1.5;
+}
+.choose label{
+    font-size: 24px;
+    margin-right: 30px;
+}
+.rdvform ul{
+    list-style: none;
+    text-align: center;
+
+}
+.rdvform ul li {
+    padding-top: 10px;
+
+
+}
+.rdvform ul li label{
+
+    color: black;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.rdvform ul li input {
+    background-color: rgb(255, 248, 238);
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+
+
+}
+.rdvform ul li select {
+    width: 150px;
+    border-radius:  20px;
+    text-align: center;
+    background: rgb(255, 248, 238);
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+} 
+.rdvform ul li select option {
+    font-size: 20px;
+    border-radius:10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#subrecherche input{
+    margin-top: 30px;
+    background: rgb(238, 187, 187);
+}
+#subrecherche input:hover{
+    background: rgb(250, 134, 134);
+    transition: .5s;
+}
+.rdvcontact{
+    margin: 20px;
+}
+.rdvcontact p{
+    font-size: 18px;
+    font-family: cursive;
+    letter-spacing: 3px;
+
+}
