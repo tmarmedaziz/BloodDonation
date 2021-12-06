@@ -32,6 +32,10 @@
                 <h2><a class="btn-add-admin" href="change_password.php">password</a></h1>
                 <br/> change your password 
             </div>
+            <div class="box text-align-center">
+                <h2><a class="btn-add-admin" href="view_requests.php">view requests</a></h1>
+                <br/> View the latest requests that you should  
+            </div>
             <div class="clearfix"></div>
         
         

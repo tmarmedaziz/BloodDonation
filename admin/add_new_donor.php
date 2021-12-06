@@ -49,7 +49,7 @@
                     <tr>
                         <td>Full Name :</td>
                         <td>
-                            <input class="form-input" type="text" name="full-name" placeholder="type your name">
+                            <input class="form-input" type="text" value="<?php if(isset($_GET['fn'])){echo $_GET['fn'];} ?>" name="full-name" placeholder="type your name">
                             
                         </td>
                     </tr>
@@ -57,6 +57,7 @@
                         <td>Blood type :</td>
                         <td>
                             <select id="blood_type" class="form-input" name="blood_type">
+                                <option value="no">Not yet</option>
                                 <option value="A+">A+</option>
                                 <option value="A-">A-</option>
                                 <option value="B+">B+</option>
@@ -86,11 +87,11 @@
                     </tr>
                     <tr>
                         <td>Phone Number :</td>
-                        <td><input class="form-input" type="tel" name="phone_number" placeholder="phone number"></td>
+                        <td><input class="form-input" type="tel" value="<?php if(isset($_GET['phone_number'])){echo $_GET['phone_number'];} ?>" name="phone_number" placeholder="phone number"></td>
                     </tr>
                     <tr>
                         <td>Email :</td>
-                        <td><input class="form-input" type="email" name="email" placeholder="type your email"></td>
+                        <td><input class="form-input" type="email" value="<?php if(isset($_GET['email'])){echo $_GET['email'];} ?>" name="email" placeholder="type your email"></td>
                     </tr>
                     <tr>
                         <td>City :</td>
