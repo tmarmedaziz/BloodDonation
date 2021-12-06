@@ -391,15 +391,12 @@ ul.social-footer2 li a {display: block; height:30px;width: 30px;text-align: cent
     content: url('https://api.iconify.design/ion/chatbubbles.svg?color=%23cdcdcd&width=9.75&height=12')  
 
 }
-.sym{
-    background: url('https://api.iconify.design/ion/logo-rss.svg?color=%23ddd&width=13.5&height=18.4') no-repeat center center / contain;
-    content: url('https://api.iconify.design/ion/logo-rss.svg?color=%23ddd&width=13.5&height=18.4');
-}
 
 
 .sym2{
     background: url('https://api.iconify.design/ei/sc-facebook.svg?color=%23ddd&width=20&height=18.4') no-repeat center center / contain;
  content: url('https://api.iconify.design/ei/sc-facebook.svg?color=%23ddd&width=20&height=18.4');
+ size: 2;
 }
 .sym3{
     background: url('https://api.iconify.design/akar-icons/twitter-fill.svg?color=%23ddd&width=20&height=18.4') no-repeat center center / contain;
