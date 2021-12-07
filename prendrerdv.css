@@ -46,22 +46,24 @@
 
 }
 .rdvform ul li input {
-    background-color: rgb(255, 248, 238);
+    background-color: rgb(229 229 229 / 94%);
     border-radius: 10px;
     height: 40px;
     width: 300px;
     padding-left: 20px;
     letter-spacing: 2px;
-
-
+    border: none;
 }
 .rdvform ul li select {
     width: 150px;
-    border-radius:  20px;
+    border-radius: 20px;
     text-align: center;
-    background: rgb(255, 248, 238);
+    background: rgb(229 229 229 / 94%);
     font-size: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 300px;
+    height: 40px;
+    border: none;
 
 
 } 
