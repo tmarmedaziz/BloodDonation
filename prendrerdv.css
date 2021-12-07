@@ -47,7 +47,7 @@
 }
 .rdvform ul li input {
     background-color: rgb(229 229 229 / 94%);
-    border-radius: 10px;
+    border-radius: 30px;
     height: 40px;
     width: 300px;
     padding-left: 20px;
@@ -83,12 +83,10 @@
 }
 .rdvcontact{
     margin: 20px;
-    margin-bottom: 315px;
+    margin-bottom: 350px;
 }
 .rdvcontact p{
     font-size: 18px;
-    font-family: cursive;
-    letter-spacing: 3px;
 
 
 }
