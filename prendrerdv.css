@@ -83,10 +83,12 @@
 }
 .rdvcontact{
     margin: 20px;
+    margin-bottom: 315px;
 }
 .rdvcontact p{
     font-size: 18px;
     font-family: cursive;
     letter-spacing: 3px;
+
 
 }
